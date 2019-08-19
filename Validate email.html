@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiểm tr</title>
+</head>
+<body>
+        <script>
+                patt = /^[0-9a-zA-Z][0-9a-zA-Z]*@+[0-9a-zA-z]+(\.[0-9a-zA-Z]{2,})$/;
+                function check(str) {
+                    if (patt.test(str)) {
+                     alert("đúng");
+                    } else {
+                        alert("sai");
+                    }
+                }
+
+                let a='nguyenxuanbinh@gmail.com';
+                check(a);
+
+        </script>
+</body>
+</html>
